@@ -1,0 +1,29 @@
+title: All Goddess Statues (Bug Limit)
+version: 1.0.0
+route:
+  use: ./main.yaml
+config:
+- use: Pistonight/celer-presets/botw/map.yaml
+- plugins:
+  - use: variables
+- tags:
+    important:
+      background: darkred
+      bold: true
+    shrine: #for counter
+      color: aquamarine
+    sh: #for route
+      color: aquamarine
+- icons:
+    gs: https://icons.pistonite.org/icon/location.lightroot.none.333333.eeeeee.333333.eeeeee.69a2d5.c1fefe.png
+    shr: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    tss: https://icons.pistonite.org/icon/shrine.double_sword.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    bls: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    tower: https://icons.pistonite.org/icon/location.tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    chest: https://icons.pistonite.org/icon/shrine.blessing.none.633830.f0673a.333333.eeeeee.69a2d5.c1fefe.png
+    horse: https://icons.pistonite.org/icon/misc.horse.none.568c28.c8e6af.8c5e28.ffffb5.69a2d5.c1fefe.png
+    king: https://icons.pistonite.org/icon/character.king.none.2a767d.59ffff.8c5e28.ffffb5.69a2d5.c1fefe.png
+    impa: https://icons.pistonite.org/icon/character.impa.none.2a767d.59ffff.8c5e28.ffffb5.8c5e28.ffffb5.png
+    naydra: https://icons.pistonite.org/icon/character.ganon.none.333333.eeeeee.2a767d.59ffff.2a767d.59ffff.png
+    dinraal: https://icons.pistonite.org/icon/character.ganon.none.333333.eeeeee.633830.f0673a.633830.f0673a.png
+    farosh: https://icons.pistonite.org/icon/character.ganon.none.333333.eeeeee.568c28.c8e6af.568c28.c8e6af.png

@@ -1,0 +1,710 @@
+- All Goddess Statues (Bug Limit)
+- Plateau:
+  - Woodcutter's Axe:
+      movements:
+        - [-1044,1809]
+        - [-921,1872]
+      color: tomato
+  - Boko Shield:
+      movements:
+        - [-596,1703]
+  - Great Plateau Tower:
+      icon: tower
+      coord: [-561,1697]
+  - .sh(Magnesis) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-686,1647]
+        - [-680,1512]
+  - Ruby:
+      icon: chest
+      coord: [-672,1523]
+  - Warp to Shrine of Resurrection:
+      movements:
+        - to: [-1099,1876]
+          warp: true
+  - .sh(Cryonis) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1044,1809]
+        - [-1357,1766]
+        - [-1393,1881]
+        - [-1477,1941]
+        - [-1465,2007]
+        - [-1436,1993]
+  - Warm Doublet:
+      icon: king
+      movements:
+        - [-1288,2222]
+  - .sh(Stasis) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-926,2322]
+  - Warp to Great Plateau Tower:
+      movements:
+        - to: [-561,1697]
+          warp: true
+  - .sh(Bombs) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-450,1992]
+  - Paraglider:
+      icon: king
+      coord: [-811,1967]
+  - Soldier's Bow:
+      icon: chest
+      coord: [-815,1965]
+      notes: DON'T FORGET THIS, you need a single shot bow later
+  - Temple of Time Goddess Statue:
+      icon: gs
+      coord: [-823,2031]
+      vars:
+        shrine: .sub(4)
+  - Warp to Great Plateau Tower:
+      movements:
+        - to: [-561,1697]
+          warp: true
+      color: gold
+- Kakariko Village:
+  - Find Horse:
+      icon: horse
+      coord: [-278,1079]
+  - .sh(Wahgo Katta) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [345,1009]
+  - Sell Ruby:
+      coord: [338,1095]
+  - Register Horse:
+      icon: horse
+  - .sh(Bosh Kala) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [88,1658]
+  - .sh(Shee Vaneer) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [137,1606]
+        - [381,1613]
+        - [828,1890]
+        - [948,2039]
+        - [1265,1938]
+  - .sh(Ha Dahamar) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1662,1924]
+  - Wood:
+      coord: [1750,1954]
+  - Take horse:
+      icon: horse
+      coord: [1758,1922]
+  - Buy 5x Fire Arrows & 15x Arrows:
+      movements:
+        - [1750,1602]
+        - [1833,1438]
+        - [2108,1402]
+        - [2097,1209]
+        - [1952,1154]
+        - [1956,1028]
+        - [1825,1041]
+  - Kakariko Village Goddess Statue:
+      icon: gs
+      coord: [1840,998]
+      vars:
+        shrine: .sub(4)
+  - Talk to Impa:
+      icon: impa
+      comment: finish "Seek Out Impa"
+      coord: [1776,985]
+  - .sh(Ta'loh Naeg) Shrine:
+      counter: .var(shrine)
+      icon: tss
+      coord: [1840,891]
+  - .sh(Daka Tuss) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1601,463]
+  - Warp to .sh(Keh Namut):
+      movements:
+        - to: [-1436,1993]
+          warp: true
+      color: springgreen
+- Forgotten Temple:
+  - Bomb Arrows:
+      coord: [-1451,2028]
+  - .sh(Dah Kaso) Shrine:
+      counter: .var(shrine)
+      icon: tss
+      coord: [-1698,1704]
+  - Warp to .sh(Keh Namut):
+      movements:
+        - to: [-1436,1993]
+          warp: true
+  - .sh(Rota Ooh) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-1563,1311]
+  - Take Horse:
+      icon: horse
+      coord: [-1452,1264]
+  - .sh(Kaam Ya'tak) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1464,1137]
+        - [-1338,808]
+        - [-1286,773]
+        - [-969,717]
+  - .sh(Katah Chuki) Shrine:
+      counter: .var(shrine)
+      icon: tss
+      movements:
+        - [-890,553]
+        - [-904,343]
+        - [-768,207]
+        - [-668,-259]
+        - [-637,-344]
+  - .sh(Noya Neha) Shrine:
+      counter: .var(shrine)
+      icon: tss 
+      movements:
+        - [-668,-259]
+        - [-774,-430]
+        - [-1009,-535]
+        - [-953,-624]
+  - .sh(Zalta Wa) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1009,-535]
+        - [-1028,-424]
+        - [-1147,-518]
+        - [-1434,-593]
+  - .sh(Monya Toma) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1577,-581]
+        - [-1512,-788]
+        - [-1490,-1473]
+  - Ore Deposits (need a flint)
+  - .sh(Maag No'rah) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      coord: [-1941,-1458]
+  - Endura Shrooms:
+      coord: [-1534,-1763]
+  - Cook Endura Shrooms
+  - .sh(Rona Kachta) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      movements:
+        - [-1401,-2287]
+        - [-1090,-2660]
+  - Forgotten Temple Goddess Statue:
+      icon: gs
+      coord: [-1068,-2688]
+      vars:
+        shrine: .sub(4)
+  - Warp to .sh(Monya Toma):
+      movements:
+        - to: [-1490,-1473]
+          warp: true
+      color: deepskyblue
+- Rito Village:
+  - Whistle for horse:
+      icon: horse
+      movements:
+        - [-1543,-1638]
+  - .sh(Sheem Dagoze) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1512,-788]
+        - [-1577,-581]
+        - [-1803,-343]
+        - [-1894,92]
+  - .sh(Shae Loya) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1940,-4]
+        - [-2738,-256]
+        - [-2812,-436]
+        - [-2932,-433]
+  - Set to morning:
+      coord: [-2913,-561]
+  - Dinraal's Scale:
+      icon: dinraal
+      movements:
+        - [-2838,-1050]
+        - [-2940,-1155]
+  - Warp to .sh(Shae Loya):
+      movements:
+        - to: [-2932,-433]
+          warp: true
+  - Take horse:
+      icon: horse
+      coord: [-2926,-553]
+  - Bomb Arrows:
+      icon: chest
+      movements:
+        - [-2986,-582]
+        - [-3247,-576]
+        - [-3498,-537]
+        - [-3530,-608]
+        - [-3610,-604]
+        - [-3764,-764]
+        - [-3688,-768]
+        - [-3558,-858]
+        - [-3448,-869]
+        - [-3241,-1114]
+        - [-3267,-1314]
+  - Make campfire and set to noon:
+      coord: [-3318,-1356]
+  - Shock Arrows:
+      icon: chest
+      coord: [-3558,-1504]
+      notes: in enemy camp
+  - Shoot fire arrow into lit platform:
+      comment: between 12:35 and 12:55
+  - .sh(Bareeda Naag) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-3610,-1515]
+  - Rito Village Goddess Statue:
+      icon: gs
+      coord: [-3610,-1805]
+      vars:
+        shrine: .sub(4)
+  - .sh(Akh Va'quot) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-3657,-1758]
+  - .sh(Sha Warvo) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-3823,-2205]
+  - .sh(Maka Rah) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-3984,-2546]
+        - [-4059,-2506]
+  - Warp to .sh(Wahgo Katta):
+      movements:
+        - to: [345,1009]
+          warp: true
+      color: deeppink
+- Akkala:
+  - Take horse:
+      icon: horse
+      coord: [338,1095]
+  - .sh(Hila Rao) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [523,903]
+        - [746,1017]
+        - [930,1009]
+        - [951,837]
+        - [853,838]
+  - .sh(Kaya Wan) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [951,837]
+        - [824,189]
+  - .sh(Mirro Shaz) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [1026,-626]
+        - [1231,-652]
+        - [1376,-754]
+        - [1250,-903]
+        - [1226,-1105]
+        - [1230,-1213]
+  - .sh(Sheh Rata) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [1226,-1105]
+        - [1250,-903]
+        - [1567,-484]
+        - [1502,-374]
+  - .sh(Soh Kofi) Shrine:
+      counter: .var(shrine)
+      icon: tss
+      movements:
+        - [1622,-405]
+        - [1876,-337]
+        - [1943,-248]
+        - [2112,-208]
+        - [2238,-292]
+  - .sh(Ze Kasho) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [2213,-381]
+        - [2274,-461]
+        - [2402,-473]
+        - [2475,-519]
+        - [2619,-729]
+        - [2844,-768]
+        - [2914,-847]
+        - [3009,-1024]
+        - [3026,-1666]
+  - Tarrey Town Goddess Statue:
+      icon: gs
+      coord: [3966,-1611]
+      vars:
+        shrine: .sub(4)
+  - .sh(Katosa Aug) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [3782,-1694]
+        - [3767,-1769]
+        - [3855,-1864]
+        - [4138,-1898]
+        - [4218,-2497]
+        - [4266,-2587]
+        - [4292,-2728]
+  - Spring of Power Goddess Statue:
+      icon: gs
+      movements:
+        - [3799,-2700]
+        - [3761,-2679]
+      vars:
+        shrine: .sub(4)
+  - ignore shrine
+  - .sh(Zuna Kai) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      movements:
+        - [3832,-2874]
+        - [3687,-3290]
+        - [3435,-3446]
+        - [3322,-3420]
+  - Warp to .sh(Mirro Shaz):
+      movements:
+        - to: [1230,-1213]
+          warp: true
+      color: tomato
+- Korok Forest:
+  - Take horse:
+      icon: horse
+      coord: [1066,-1144]
+  - .sh(Keo Ruug) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      notes: 5 - 3 - 1 - 2
+      movements:
+        - [990,-1270]
+        - [1056,-1510]
+        - [1004,-1848]
+        - [904,-1886]
+        - [581,-1938]
+        - [470,-1983]
+        - [470,-2167]
+  - Talk to Damia:
+      comment: start "The Test of Wood"
+      notes: make sure you have a free slot for each weapon
+      movements:
+        - [525,-2112]
+        - [565,-2161]
+  - .sh(Maag Halan) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      movements:
+        - [682,-2265]
+        - [749,-2272]
+        - [836,-2419]
+  - Warp to .sh(Keo Ruug):
+      movements:
+        - to: [470,-2167]
+          warp: true
+  - Korok Forest Goddess Statue:
+      icon: gs
+      coord: [416,-2180]
+      vars:
+        shrine: .sub(4)
+  - Talk to Tasho:
+      comment: start "The Lost Pilgrimage"
+      notes: you can cut in front of Oaki
+      coord: [256,-2230]
+  - .sh(Daag Chokah) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      movements:
+        - [175,-2267]
+        - [151,-2361]
+        - [101,-2326]
+        - [83,-2426]
+        - [-27,-2457]
+  - Void warp out:
+      movements:
+        - to: [256,-2230]
+          warp: true
+  - .sh(Kuhn Sidajj) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      notes: you don't have to talk to Zooki or start the quest
+      movements:
+        - [251,-1980]
+        - [100,-1827]
+        - [17,-1943]
+  - Warp to .sh(Soh Kofi):
+      movements:
+        - to: [2238,-292]
+          warp: true
+      color: gold
+- Zora's Domain:
+  - Run to Zora's Domain:
+      movements:
+        - [2635,-455]
+        - [2828,-272]
+        - [2859,-186]
+        - [3008,-25]
+        - [3169,49]
+        - [3230,-72]
+        - [3199,-227]
+  - Run up stairs:
+      movements:
+        - [3291,-446]
+        - [3276,-482]
+        - [3284,-502]
+  - Zora's Domain Goddess Statue:
+      icon: gs
+      coord: [3317,-504]
+      vars:
+        shrine: .sub(4)
+  - .sh(Ne'ez Yohma) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [3322,-518]
+  - Set to night (if necessary):
+      movements:
+        - [3304,-496]
+  - Warp to .sh(Owa Daim):
+      movements:
+        - to: [-926,2322]
+          warp: true
+      color: springgreen
+- Necluda:
+  - Farosh's Scale:
+      icon: farosh
+      movements:
+        - [-370,2816]
+  - .sh(Ya Naga) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-330,2601]
+  - Warp to .sh(Shee Vaneer):
+      movements:
+        - to: [1265,1938]
+          warp: true
+  - Spring of Courage Goddess Statue:
+      icon: gs
+      coord: [875,2359]
+      vars:
+        shrine: .sub(4)
+  - .sh(Shae Katha) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      coord: [869,2331]
+  - Warp to .sh(Shee Vaneer):
+      movements:
+        - to: [1265,1938]
+          warp: true
+  - .sh(Shee Venath) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1244,1851]
+  - .sh(Ree Dahee) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1271,1844]
+  - Warp to .sh(Shee Vaneer):
+      movements:
+        - to: [1265,1938]
+          warp: true
+  - .sh(Toto Sah) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1846,2475]
+  - Warp to .sh(Ha Dahamar):
+      movements:
+        - to: [1662,1924]
+          warp: true
+  - Take horse:
+      icon: horse
+      coord: [1758,1922]
+  - .sh(Kam Urog) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [2323,1832]
+        - [2590,1664]
+        - [2500,1498]
+  - .sh(Myamh Agana) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [2590,1664]
+        - [2801,1798]
+        - [2953,1995]
+        - [3020,1949]
+        - [3134,2067]
+        - [3125,2141]
+        - [3209,2173]
+        - [3230,2135]
+        - [3386,2216]
+  - .sh(Yah Rin) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [3066,2454]
+        - [3030,2724]
+        - [2870,3074]
+        - [2833,3311]
+  - Lurelin Village Goddess Statue:
+      icon: gs
+      coord: [2923,3444]
+      vars:
+        shrine: .sub(4)
+  - Warp to .sh(Myamh Agana):
+      movements:
+        - to: [3386,2216]
+          warp: true
+  - Hateno Village Goddess Statue:
+      icon: gs
+      coord: [3439,2098]
+      vars:
+        shrine: .sub(4)
+  - .sh(Tahno O'ah) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      movements:
+        - [3609,2085]
+        - [3967,1988]
+        - [4210,1687]
+        - [4180,1688]
+  - Climb to Spring of Wisdom:
+      movements:
+        - [4210,1687]
+        - [4216,1645]
+        - [4037,1493]
+        - [3985,1354]
+  - Naydra's Scale:
+      icon: naydra
+      movements:
+        - [3862,1376]
+        - [3849,1324]
+        - [3797,1743]
+        - [3550,1432]
+  - Open shrine:
+      movements:
+        - to: [3937,1342]
+          warp: true
+  - .sh(Jitan Sami) Shrine:
+      counter: .var(shrine)
+      icon: bls
+      coord: [3882,1316]
+  - Spring of Wisdom Goddess Statue:
+      icon: gs
+      coord: [3910,1328]
+      vars:
+        shrine: .sub(4)
+  - Warp to .sh(Ze Kasho):
+      movements:
+        - to: [3026,-1666]
+          warp: true
+      color: deepskyblue
+- Eldin:
+  - .sh(Mo'a Keet) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [2722,-1164]
+  - Buy 2 Fireproof Elixir:
+      coord: [2611,-1125]
+  - .sh(Tah Muhl) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [2405,-834]
+        - [2302,-938]
+  - Warp to .sh(Ze Kasho):
+      movements:
+        - to: [3026,-1666]
+          warp: true
+  - .sh(Sah Dahaj) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [2664,-1578]
+  - .sh(Qua Raym) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [2375,-1526]
+        - [2251,-1464]
+        - [2105,-1512]
+        - [1818,-1518]
+  - .sh(Daqa Koh) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [1765,-1645]
+        - [1797,-1794]
+        - [1754,-1870]
+        - [1976,-2042]
+        - [1908,-2149]
+        - [2062,-2326]
+  - .sh(Shae Mo'sah) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [1752,-2560]
+  - Goron City Goddess Statue:
+      icon: gs
+      coord: [1722,-2456]
+      vars:
+        shrine: .sub(4)
+  - Warp to .sh(Keh Namut):
+      movements:
+        - to: [-1436,1993]
+          warp: true
+      color: deeppink
+- Gerudo Town:
+  - .sh(Kay Noh) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      movements:
+        - [-1851,2032]
+        - [-1953,1871]
+        - [-2303,1853]
+        - [-2811,2300]
+  - .sh(Korsh O'hu) Shrine [BACKUP]:
+      icon-doc: bls
+  - .sh(Daqo Chisay) Shrine:
+      counter: .var(shrine)
+      icon: shr
+      coord: [-3816,2820]
+  - Benja:
+      coord: [-3805,2818]
+  - Vilia:
+      movements:
+        - [-3732,2871]
+        - [-3259,2612]
+  - Warp to .sh(Daqo Chisay):
+      movements:
+        - to: [-3816,2820]
+          warp: true
+  - Gerudo Town Goddess Statue:
+      icon: gs
+      coord: [-3770,2944]
+      vars:
+        shrine: .sub(4)
