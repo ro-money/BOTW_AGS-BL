@@ -630,7 +630,7 @@
       movements:
         - to: [3937,1342]
           warp: true
-  - .sh(Jitan Sami) Shrine:
+  - .sh(Jitan Sa'mi) Shrine:
       counter: .var(shrine)
       icon: bls
       coord: [3882,1316]
