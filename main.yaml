@@ -66,11 +66,11 @@
       movements:
         - to: [-561,1697]
           warp: true
-      color: gold
 - Kakariko Village:
   - Find Horse:
       icon: horse
       coord: [-278,1079]
+      color: gold
   - .sh(Wahgo Katta) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -92,6 +92,7 @@
         - [828,1890]
         - [948,2039]
         - [1265,1938]
+      notes: clockwise from entrance - up-left, down-left, right, down-left, up-right
   - .sh(Ha Dahamar) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -131,10 +132,10 @@
       movements:
         - to: [-1436,1993]
           warp: true
-      color: springgreen
 - Forgotten Temple:
   - Bomb Arrows:
       coord: [-1451,2028]
+      color: springgreen
   - .sh(Dah Kaso) Shrine:
       counter: .var(shrine)
       icon: tss
@@ -158,6 +159,9 @@
         - [-1338,808]
         - [-1286,773]
         - [-969,717]
+      notes:
+        - chest near guardians - Edge of Duality
+        - chest at end - Diamond
   - .sh(Katah Chuki) Shrine:
       counter: .var(shrine)
       icon: tss
@@ -167,6 +171,7 @@
         - [-768,207]
         - [-668,-259]
         - [-637,-344]
+      notes: reward - Royal Halberd
   - .sh(Noya Neha) Shrine:
       counter: .var(shrine)
       icon: tss 
@@ -190,11 +195,13 @@
         - [-1577,-581]
         - [-1512,-788]
         - [-1490,-1473]
+      notes: 5 hammer hits
   - Ore Deposits (need a flint)
   - .sh(Maag No'rah) Shrine:
       counter: .var(shrine)
       icon: bls
       coord: [-1941,-1458]
+      notes: reward - Silver Rupee
   - Endura Shrooms:
       coord: [-1534,-1763]
   - Cook Endura Shrooms
@@ -204,6 +211,7 @@
       movements:
         - [-1401,-2287]
         - [-1090,-2660]
+      notes: reward - Great Flameblade
   - Forgotten Temple Goddess Statue:
       icon: gs
       coord: [-1068,-2688]
@@ -213,12 +221,12 @@
       movements:
         - to: [-1490,-1473]
           warp: true
-      color: deepskyblue
 - Rito Village:
   - Whistle for horse:
       icon: horse
       movements:
         - [-1543,-1638]
+      color: deepskyblue
   - .sh(Sheem Dagoze) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -284,6 +292,7 @@
       counter: .var(shrine)
       icon: shr
       coord: [-3657,-1758]
+      notes: 3 hits on both in left column, 1 on all others
   - .sh(Sha Warvo) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -294,15 +303,19 @@
       movements:
         - [-3984,-2546]
         - [-4059,-2506]
+      notes:
+        - take out guardians with bomb arrows
+        - right side of guardians - 10x Bomb Arrow
+        - backshot just past guardians - Diamond
   - Warp to .sh(Wahgo Katta):
       movements:
         - to: [345,1009]
           warp: true
-      color: deeppink
 - Akkala:
   - Take horse:
       icon: horse
       coord: [338,1095]
+      color: deeppink
   - .sh(Hila Rao) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -394,11 +407,11 @@
       movements:
         - to: [1230,-1213]
           warp: true
-      color: tomato
 - Korok Forest:
   - Take horse:
       icon: horse
       coord: [1066,-1144]
+      color: tomato
   - .sh(Keo Ruug) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -424,6 +437,7 @@
         - [682,-2265]
         - [749,-2272]
         - [836,-2419]
+      notes: reward - Giant Ancient Core
   - Warp to .sh(Keo Ruug):
       movements:
         - to: [470,-2167]
@@ -453,7 +467,9 @@
   - .sh(Kuhn Sidajj) Shrine:
       counter: .var(shrine)
       icon: bls
-      notes: you don't have to talk to Zooki or start the quest
+      notes:
+        - you don't have to talk to Zooki or start the quest
+        - reward - Giant Ancient Core
       movements:
         - [251,-1980]
         - [100,-1827]
@@ -462,7 +478,6 @@
       movements:
         - to: [2238,-292]
           warp: true
-      color: gold
 - Zora's Domain:
   - Run to Zora's Domain:
       movements:
@@ -473,6 +488,7 @@
         - [3169,49]
         - [3230,-72]
         - [3199,-227]
+      color: gold
   - Run up stairs:
       movements:
         - [3291,-446]
@@ -494,12 +510,12 @@
       movements:
         - to: [-926,2322]
           warp: true
-      color: springgreen
 - Necluda:
   - Farosh's Scale:
       icon: farosh
       movements:
         - [-370,2816]
+      color: springgreen
   - .sh(Ya Naga) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -517,6 +533,7 @@
       counter: .var(shrine)
       icon: bls
       coord: [869,2331]
+      notes: reward - Thunderspear (you need this later)
   - Warp to .sh(Shee Vaneer):
       movements:
         - to: [1265,1938]
@@ -525,6 +542,7 @@
       counter: .var(shrine)
       icon: shr
       coord: [1244,1851]
+      notes: ccw from entrance - up-right, down-right, down-left, up-right, left
   - .sh(Ree Dahee) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -594,6 +612,7 @@
         - [3967,1988]
         - [4210,1687]
         - [4180,1688]
+      notes: reward - Climber's Boots
   - Climb to Spring of Wisdom:
       movements:
         - [4210,1687]
@@ -615,6 +634,7 @@
       counter: .var(shrine)
       icon: bls
       coord: [3882,1316]
+      notes: you have to do the shrine first
   - Spring of Wisdom Goddess Statue:
       icon: gs
       coord: [3910,1328]
@@ -624,12 +644,12 @@
       movements:
         - to: [3026,-1666]
           warp: true
-      color: deepskyblue
 - Eldin:
   - .sh(Mo'a Keet) Shrine:
       counter: .var(shrine)
       icon: shr
       coord: [2722,-1164]
+      color: deepskyblue
   - Buy 2 Fireproof Elixir:
       coord: [2611,-1125]
   - .sh(Tah Muhl) Shrine:
@@ -646,6 +666,7 @@
       counter: .var(shrine)
       icon: shr
       coord: [2664,-1578]
+      notes: bomb arrow through gate will burn both boxes
   - .sh(Qua Raym) Shrine:
       counter: .var(shrine)
       icon: shr
@@ -668,6 +689,11 @@
       counter: .var(shrine)
       icon: shr
       coord: [1752,-2560]
+      notes:
+        - stasis on switches
+        - Ruby near ramp just past guardians
+        - magnesis ball to water wheel
+        - Small Key in cage
   - Goron City Goddess Statue:
       icon: gs
       coord: [1722,-2456]
@@ -677,7 +703,6 @@
       movements:
         - to: [-1436,1993]
           warp: true
-      color: deeppink
 - Gerudo Town:
   - .sh(Kay Noh) Shrine:
       counter: .var(shrine)
@@ -687,12 +712,14 @@
         - [-1953,1871]
         - [-2303,1853]
         - [-2811,2300]
+      color: deeppink
   - .sh(Korsh O'hu) Shrine [BACKUP]:
       icon-doc: bls
   - .sh(Daqo Chisay) Shrine:
       counter: .var(shrine)
       icon: shr
       coord: [-3816,2820]
+      notes: bring mag block to middle, use thunderspear
   - Benja:
       coord: [-3805,2818]
   - Vilia:
